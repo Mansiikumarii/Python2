@@ -10,6 +10,6 @@ df['a'].unique()  # Get unique values in column 'a'
 print(df[df['a'] < 2])  # Filter rows where column 'a' is greater than 2
 
 
-csv_path = 'https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/LXjSAttmoxJfEG6il1Bqfw/Product-sales.csv'
-df = pd.read_csv(csv_path)
+
+
   

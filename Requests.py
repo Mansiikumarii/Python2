@@ -1,0 +1,10 @@
+import requests
+response = requests.get("https://api.github.com",params={"q":"requests"})
+print(response.url)
+print(response.status_code)
+print(response.request.headers )
+print(response.request.body)
+print(response.headers)
+print(response.text)
+print(response.json())
+requests.post("https://httpbin.org/post", data={"key": "value"})
